@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Rye&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gajraj+One&family=Monoton&family=Rye&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:wght@700&family=Monoton&family=Rye&family=Titan+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background-color: #05141a;
+    overflow:hidden;
+    font-family: ubuntu mono;
+  }
+
+p {
+  color:#f8e5b9;
+}
+  .slot-machine {
+    display: flex;
+    background-color: #20ddee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+.letter {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .slot {
+    display: inline-block;
+    border: 1px solid #000;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 5px;
+    background-color:#f8eccf;
+  }
+  
+  .T { color: #f704cf; font-family: 'Courgette', sans-serif; }
+  .T1 { color: #ff00e6; font-family: 'Courgette', sans-serif; }
+  .T2 { color: #60f699; font-family: 'Lobster Two'; }
+  .T3 { color: #36e5f9; font-family: 'Courier New', monospace; }
+  .T4 { color: #fa8afa; font-family: 'Rye'; }
+  .T5 { color: #d100d8; font-family: 'Titan One', sans-serif; }
+
+#hint {
+  color:white.
+  }
+
+  #spinButton {
+    padding:1rem;
+    margin-top: 5px;
+    background-color:#20ddee;
+    color:black;
+    border: 1px solid #f391ae;
+    border-radius: 10px;
+    font-family: ubuntu mono;
+    font-size: 16px;
+  }
